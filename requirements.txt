@@ -1,0 +1,35 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Whisper and audio processing
+faster-whisper==0.10.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Configuration and validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Monitoring and metrics
+prometheus-client==0.19.0
+
+# HTTP client for health checks
+requests==2.31.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Development and linting
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# Load testing
+# Note: k6 is installed separately - see README for installation instructions
+
+# Streamlit UI (optional)
+streamlit==1.28.1
