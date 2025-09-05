@@ -288,9 +288,6 @@ The service exposes Prometheus metrics for monitoring:
 - **Security**: Add authentication and rate limiting as needed
 - **Monitoring**: Set up alerts for error rates and response times
 
-## License
-
-MIT License. See LICENSE file for details.
 
 ## Contributing
 
